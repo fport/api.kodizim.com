@@ -16,12 +16,12 @@
     "application/json"
   ],
   "paths": {
-    "/api/v1/public/mentee": {
+    "/api/v1/public/mentee/{id}": {
       "get": {
         "tags": [
           "Mentee"
         ],
-        "summary": "Get all freelance job in system",
+        "summary": "Get mentee by id",
         "responses": {
           "200": {
             "description": "OK",
@@ -32,12 +32,12 @@
         }
       }
     },
-    "/api/v1/public/mentor": {
+    "/api/v1/public/mentor/{id}": {
       "get": {
         "tags": [
           "Mentors"
         ],
-        "summary": "Get all freelance job in system",
+        "summary": "Get mentor by id",
         "responses": {
           "200": {
             "description": "OK",
